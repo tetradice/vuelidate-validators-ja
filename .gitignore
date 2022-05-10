@@ -1,2 +1,8 @@
 node_modules/
 /dist/
+
+# npm pack output
+*.tgz
+
+# visualizer output
+stats.html
