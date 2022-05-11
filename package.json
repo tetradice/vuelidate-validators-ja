@@ -1,10 +1,16 @@
 {
   "name": "vuelidate-validators-ja",
-  "version": "0.1.0",
+  "version": "2.0.0-beta.1",
   "description": "Vuelidate validators with Japanese error message",
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist"
+  ],
   "scripts": {
     "typecheck": "tsc --noEmit",
     "build": "microbundle -f esm,cjs",
@@ -13,8 +19,8 @@
     "prepack": "npm run build",
     "visualize-bundle": "npm run build -- --visualize"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Dice <tetradice@gmail.com>",
+  "license": "Unlicense",
   "devDependencies": {
     "microbundle": "^0.15.0",
     "rimraf": "^3.0.2",
