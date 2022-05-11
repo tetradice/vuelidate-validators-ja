@@ -4,9 +4,11 @@ A set of validators for [Vuelidate 2](https://vuelidate-next.netlify.app/) that 
 
 ** WIP **
 
-## Install (WIP version, not published)
+## Install (WIP version)
 
+```
 % npm install vuelidate-validators-ja
+```
 
 ## License
 
